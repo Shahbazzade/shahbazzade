@@ -24,29 +24,29 @@ h1, h2 {
   font-weight: 400;
 }
 h1 {
-  font-size: 80px;
+  font-size: 80 px;
 }
 h2 {
-  font-size: 40px;
+  font-size: 40 px;
   margin-top: 0;
 }
 .content-wrap {
-  max-width: 950px;
+  max-width: 950 px;
   margin: 0 auto;
-  padding: 50px;
+  padding: 50 px;
   overflow: hidden;
 }
 
 .column-narrow {
-  width: 35%;
+  width: 35 %;
   float: left;
-  padding-right: 3%;
-  min-height: 175px;
+  padding-right: 3 %;
+  min-height: 175 px;
 }
 .column-wide {
-  width: 62%;
+  width: 62 %;
   float: left;
-  min-height: 175px;
+  min-height: 175 px;
 }
 
 
@@ -62,8 +62,8 @@ header h1,
 header h2 {
     color: #EDF2F4;
     margin: 0;
-    width:150%;
-    padding: 40px;
+    width: 150 %;
+    padding: 40 px;
 }
 
 /* Header styles only */
@@ -73,7 +73,7 @@ header {
 }
 .profile-img {
   /*width: 300px;*/
-  border-radius: 50%;
+  border-radius: 50 %;
   /*float: left;*/
   /*margin-right: 30px;*/
 }
@@ -83,7 +83,7 @@ footer {
   text-align: center;
 }
 .contact-info a {
-  padding: 10px;
+  padding: 10 px;
   display: inline-block;
 }
 
