@@ -1,31 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="https://use.fontawesome.com/7cc017968d.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Sabina Shahbazzade | Resume</title>
     <link href="https://fonts.googleapis.com/css?family=Caveat|Open+Sans:400,400i,700" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <!-- // Intro -->
-    <header>
+    <header id="skills">
+        <a href="Resume.pdf" download class="btn">Download PDF</a>
+        <nav>
+        <a href="#skills">Skills</a>
+        <a href="#languages">Languages</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#additionaleducation">Additional Education</a>
+        <a href="#contact">Contact</a>
+        </nav>
         <div class="content-wrap">
-            
-            
             <div class="column-wide">
               <h1>Sabina Shahbazzade</h1>
-      <h2 style = "max-width: auto; display: inline;">Master in Science in Information System Technology, GWU </h2> 
-          
-       <!-- <p>Add your profile summary here. You can have several paragraphs or add links.</p> -->
+      <h2 class="title">MS in Inforamation System Technology at GWU </h2> 
+         <!-- <p>Add your profile summary here. You can have several paragraphs or add links.</p> -->
+        
 
             </div>
         </div>
+        
     </header>
     
     <main>
-                <!-- // Work Experience -->
-        <section class="work">
+                <!-- // Skills -->
+        <section id="skills" class="one">
             <div class="content-wrap">
             <h2>Skills</h2>
 
@@ -53,8 +62,8 @@
 
         </section>
 
-        
-        <section class="education">
+         <!-- // Languages -->
+        <section id="languages" class="two">
             <div class="content-wrap">
             <h2>Languages</h2>
             <div class="col-narrow" style="float: left; width: 50%;">
@@ -72,19 +81,19 @@
             </div>
         </section>
 
-        <!-- // Work Experience -->
-        <section class="work">
+        <!-- // Projects -->
+        <section id="projects" class="one">
             <div class="content-wrap">
                 <h2>Projects</h2>            
 
                 <!-- Job Details: copy this block to add more positions. -->
                 <div class="column-narrow">
                     <h3>Development of Website</h3>
-                    <p>Group Project</p>
+                    <p class="uppercase">Group Project</p>
                     <p>2013</p>
 
                 </div>
-                <div class="column-wide">
+                <div class="column-wide job-description">
                   <p>The website allows to shorten long URL into the short URL. Users can save the short URL to their accounts by registering to this website, where they can mark and/or delete it.</p>
                   <p>HTML, CSS, JavaScript, SQL, Python</p>
 
@@ -93,11 +102,11 @@
                 <!-- Job Details -->
                 <div class="column-narrow">
                    <h3>Games</h3>
-                    <p>Individual Project</p>
+                    <p class="uppercase">Individual Project</p>
                     <p>2013</p>
                 </div>
                 
-                <div class="column-wide">
+                <div class="column-wide job-description">
                     <p>Sudoku and Hangman</p>
                     <p>SNAP (Scratch)</p>
 
@@ -106,12 +115,12 @@
                 <!-- Job Details -->
                 <div class="column-narrow">
                     <h3>Database of Bookstores</h3>
-                    <p>Individual Project</p>
+                    <p class="uppercase">Individual Project</p>
                     <p>2013</p>
 
                 </div>
-                <div class="column-wide">
-                    <p>Sudoku and Hangman</p>
+                <div class="column-wide job-description">
+                    <p>Website about Bookstores</p>
                     <p>MySQL and PHP</p>
                     
                 </div>
@@ -119,11 +128,11 @@
                 <!-- Job Details -->
                 <div class="column-narrow">
                     <h3>Development of Website</h3>
-                    <p>Individual Project</p>
+                    <p class="uppercase">Individual Project</p>
                     <p>2017</p>
 
                 </div>
-                <div class="column-wide">
+                <div class="column-wide job-description">
                     <p>A website about fruits, vegetables and salads</p>
                     <p>HTML, CSS, JavaScript, Bootstrap</p>
                     <p><a href="http://fvs.neocities.org">FVS</a></p>
@@ -132,11 +141,11 @@
                 <!-- Job Details -->
                 <div class="column-narrow">
                     <h3>Personal Website</h3>
-                    <p>Individual Project</p>
+                    <p class="uppercase">Individual Project</p>
                     <p>2017</p>
 
                 </div>
-                <div class="column-wide">
+                <div class="column-wide job-description">
                     <p>Resume</p>
                     <p>HTML and CSS</p>
                     <p><a href="https://shahbazzade.github.io/shahbazzade/">Personal Website</a></p>
@@ -147,14 +156,14 @@
 
 
         <!-- // Education -->
-        <section class="education">
+        <section id="education" class="two">
             <div class="content-wrap">
                 <h2>Education</h2>
 
                 <!-- School details: copy this block to add more schools. -->
-                <h3>The George Washington University</h3>
-                <h4>Master of Science in Information System Technology</h4>
-                <p>01/2018 - 2020</p>
+                <h3>University of San Francisco</h3>
+                <h4>Master of Science in Computer Science</h4>
+                <p>2017 - Present</p>
                 
                 <h3>University of California, Berkeley</h3>
                 <h4>Concurrent Enrollment Program, Non-Degree Program, Computer Science and School of Information</h4>
@@ -172,7 +181,8 @@
             </div>
         </section>
         
-        <section class="work">
+         <!-- // Additional Education -->
+        <section id="additionaleducation" class="one">
             <div class="content-wrap">
                 <h2>Additional Education</h2>
                 <h3>Lynda</h3>
@@ -196,17 +206,22 @@
     </main>
     
     <!-- // Footer & contact info -->
-    <footer>
+    <footer id="contact">
         <div class="content-wrap">
             <h2>Let's Keep in Touch!</h2>
             
             <!-- Social media and contact links. Add or remove any networks. -->
             <div class="contact-info">
-                <a href="mailto:sshahbazzade@gmail.com">Email</a>
+                <a href="mailto:sshahbazzade@gmail.com"><i class="fa fa-envelope-o" aria-hidden="true"></i>
+<span class="sr-only">Email</span></a>
+                <!--
                 <a href="https://shahbazzade.github.io/shahbazzade/">Personal Website</a>
+                -->
                <!-- <a href="#">Twitter</a> -->
-                <a href="https://www.linkedin.com/in/sabinashahbazzade/">LinkedIn</a>
-                <a href="https://www.facebook.com/shahbazzade">Facebook</a>
+                <a href="https://www.linkedin.com/in/sabinashahbazzade/"><i class="fa fa-linkedin-square" aria-hidden="true"></i>
+<span class="sr-only">Linkedin</span></a>
+                <a href="https://www.facebook.com/shahbazzade"><i class="fa fa-facebook-official" aria-hidden="true"></i>
+<span class="sr-only">Facebook</span></a>
             </div>
 
             <p>Copyright 2017 by Sabina Shahbazzade</p>
