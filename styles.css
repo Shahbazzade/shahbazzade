@@ -1,4 +1,9 @@
 /* Global styles 
+
+background-image: url("../image.jpg");
+    background-size: cover;
+
+
 ------------------------------------*/
 /* border box fix */
 html {
@@ -11,12 +16,19 @@ html {
 body {
   font-family: 'Open Sans', sans-serif;
   margin: 0;
+   
 }
 a {
-    color: #EF233C;
+     text-decoration: none;
+    color:#637DB5;
 }
 a:hover {
     text-decoration: none;
+    background-color: #637DB5;
+    color: white;
+    border-radius: 10px;
+    border: solid white;
+    padding:6px 8px 6px 8px;
 }
 h1, h2 {
   font-family: 'Caveat', cursive;
@@ -32,7 +44,7 @@ h2 {
 .content-wrap {
   max-width: 950px;
   margin: 0 auto;
-  padding: 50px;
+  padding: 60px 50px;
   overflow: hidden;
 }
 
@@ -40,12 +52,12 @@ h2 {
   width: 35%;
   float: left;
   padding-right: 3%;
-  min-height: 175px;
+ /* min-height: 175px; */
 }
 .column-wide {
   width: 62%;
   float: left;
-  min-height: 175px;
+ /* min-height: 175px; */
 }
 
 
@@ -54,12 +66,12 @@ h2 {
 ------------------------------------*/
 header, 
 footer {
-  background: #2B2D42;
+  background: #637DB5;
   color: #8D99AE;
 }
 header h1,
 header h2 {
-    color: #EDF2F4;
+    color: white;
     margin: 0;
     width:150%;
     padding: 40px;
@@ -80,24 +92,121 @@ header {
 /* Footer styles only */
 footer {
   text-align: center;
+    color: white;
+}
+footer a {
+    text-decoration: none;
+    
+    color: white;
+    font-size: 200%;
+}
+footer a:hover {
+    background-color: white;
+    color: #637DB5;
+    border-radius: 20%;
+    padding: 0px 7px 0px 7px;
+    
+   
 }
 .contact-info a {
   padding: 10px;
   display: inline-block;
 }
+h3 ~ p {
+    margin: 0;
+}
+h3 {
+    margin: 0; /* to remove space between lines */
+}
 
 
 
 /* Work Experience
+
 ------------------------------------*/
-.work {
-    background: #EDF2F4;
+.one {
+    background: #FFFFFF;
+     color: #637DB5;
+    
 }
 
 
 /* Education
 ------------------------------------*/
-.education {
-    background: #8D99AE;
+.two {
+    background: #637DB5;
+    color: white;
+    
+}
+.uppercase {
+    text-transform: uppercase;
+}
+.job-description p:first-of-type {
+    margin: 0;
+}
+.job-description {
+    margin-bottom: 25px;
 }
 
+p + h3 {
+    margin-top: 30px;
+}
+.title {
+     margin-top:-10%;
+    margin-bottom: -10%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+nav {
+    text-align: center;
+    background: white;
+    position: fixed;
+    top: 0;
+    width:100%;
+}
+nav a {
+    display: inline-block;
+    padding: 15px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight:700;
+    color: #637DB5;
+}
+header {
+    padding-top: 50px;
+    position: relative;
+}
+.download {
+   
+    
+}
+.btn {
+    text-decoration: none;
+    background: #637DB5;
+    border: double white;
+    color: ghostwhite;
+    padding: 10px;
+    display: inline-block;
+     position:absolute;
+    bottom: 0;
+    right: 0;
+}
+/* Media Queries
+-------------------------*/
+@media (min-width: 900px) {
+  .col-narrow {
+    width: 30%;
+    float: left;
+  }
+  .col-wide {
+    width: 70%;
+    float: left;
+    padding-left: 20px;
+  }
+}
+@media (max-width: 899px){
+  header {
+    text-align: center;
+  }
+  
+}
